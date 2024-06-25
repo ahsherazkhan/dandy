@@ -11,7 +11,7 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: 'https://dandy-backend-razbnef48-ahsherazkhans-projects.vercel.app',
+  uri: 'http://localhost:4000',
   cache: new InMemoryCache()
 
 });
