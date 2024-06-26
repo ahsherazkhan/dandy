@@ -28,6 +28,7 @@ mongoose.connection.on("error",(err)=>{
 const server = new ApolloServer({ 
     typeDefs, 
     resolvers,
+    introspection: true,
     plugins:[
         ApolloServerPluginLandingPageGraphQLPlayground()
     ]
