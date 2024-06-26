@@ -11,7 +11,7 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000',
+  uri: 'https://dandy-six.vercel.app/',
   cache: new InMemoryCache()
 
 });
