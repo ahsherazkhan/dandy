@@ -8,6 +8,8 @@ Built using:
 - Front-end library: React
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
+- Backend Environment: Node
+- Query Language: GraphQL
 
 In the /personal-portfolio, you can run:
 
